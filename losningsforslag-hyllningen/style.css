@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #DFD7E2;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1, nav {
+    display: inline-block;
+}
+/* flexa till mha column så vår lista hamnar i mitten vertikalt */
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* bara påverka den andra list-item:et i ul */
+nav > ul > li:nth-of-type(2) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+main {
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #4c116069, #27182c69), url('https://media.newyorker.com/photos/5a1f13f2f2287d71effeaea4/16:9/w_1280,c_limit/Camhi-Hedy-Lamarr-doc.jpg');
+    height: 40vh;
+    /* flexa till mha column så vår text hamnar i mitten vertikalt */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+.hero>h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.293);
+}
+.wrapper {
+    margin: 1rem 2rem;
+}
+
+.infoArticle {
+    margin-top: 1rem;
+}
+.infoArticle>h2 {
+    margin: 2rem 0;
+}
+.infoArticle>p {
+    max-width: 80%;
+}
+.roundedImage {
+    text-align: center;
+    margin: 4rem 0;
+}
+.roundedImage img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.infoWithImage {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+}
+
+.infoWithImage img {
+    width: 30vw;
+    height: 30vw;
+}
+.infoWithImage .infoText {
+    padding: 2rem;
+}
+.infoWithImage .infoText h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.infoWithImage.imageRight .infoText {
+    text-align: right;
+} 
+
+.list h4{
+    text-align: center;
+}
+.list ul {
+    display: flex;
+    flex-direction: column;
+}
+.list ul li {
+    align-self: center;
+}
