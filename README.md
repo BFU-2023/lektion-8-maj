@@ -14,6 +14,8 @@ CSS Grunder » CSS Layout med flexbox » Lärprojekt under BFU ( Todo App )
 * [Bra guide på Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Vimeo-länk:
-
+* [1](https://vimeo.com/825084857?share=copy)
+* [2](https://vimeo.com/825085383?share=copy)
+* [3](https://vimeo.com/825085546?share=copy)
 ### Veckans övning:
 [Poster Shop](https://github.com/BFU-2023/Poster-Shop)
